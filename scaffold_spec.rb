@@ -1,7 +1,7 @@
 Scaffoldhub::Specification.new do
 
   # Github URL where you will post your scaffold - the specified folder must contain this file
-  base_url  'https://github.com/your_name/your_repo'
+  base_url  'https://github.com/rashmi14yadav/pagination'
 
   # The name of your new scaffold: should be a single word
   name 'pagination'
