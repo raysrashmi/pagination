@@ -1,0 +1,10 @@
+Create scaffold with pagination
+
+command to run
+
+rails generate scaffoldhub comment title:string description:text --scaffold pagination:2
+
+Replace
+comment with model name
+title and description are atrributes of model
+2 is the per_page
