@@ -60,4 +60,13 @@ Scaffoldhub::Specification.new do
   # Add a gem to the Gemfile
   gem 'kaminari', '0.12.4'
   # gem "some_other_gem", :group => :test, :git => "git://github.com/rails/rails"
+  post_install_message <<MESSAGE
+  - Run "bundle install" to install the kaminari gem
+  - Run "rake db:migrate" to create your new PLURAL_NAME database table
+  - Run your Rails server
+  - Open http://localhost:3000/PLURAL_NAME
+  ... to see the index page. Now when you create enough NAME records
+  you'll see the pagination working!
+MESSAGE
+
 end
